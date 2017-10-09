@@ -1,5 +1,6 @@
-# tcc-monografia
-Monografia do TCC
+[![Build Status](https://travis-ci.org/andreformento/tcc-monografia.svg?branch=master)](https://travis-ci.org/andreformento/tcc-monografia)
+
+# Monografia do TCC
 
 ## Como gerar PDF com docker
 * Clean: `rm -rf latex-docker && rm monografia.*`
