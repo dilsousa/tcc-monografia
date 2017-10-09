@@ -19,4 +19,4 @@ git push origin v1.4
 * Generate: `latex/dockercmd.sh /bin/sh -c "pdflatex tex/monografia.tex && pdflatex tex/monografia.tex"`
 
 # Referencias
-* https://github.com/andreformento/latex-docker
+* https://github.com/andreformento/latex
