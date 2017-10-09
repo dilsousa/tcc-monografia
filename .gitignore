@@ -281,3 +281,5 @@ sympy-plots-for-*.tex/
 
 # Custom
 _build/
+
+latex-docker/

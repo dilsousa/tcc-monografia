@@ -1,11 +1,10 @@
-[![Build Status](https://travis-ci.org/andreformento/tcc-monografia.svg?branch=master)](https://travis-ci.org/andreformento/tcc-monografia)
-
 # tcc-monografia
 Monografia do TCC
 
-## Docker
-* Build: `docker build -t latex .`
+## Como gerar PDF com docker
+* Clean: `rm -rf latex-docker && rm monografia.pdf`
+* Clone: `git clone https://github.com/andreformento/latex-docker`
+* Generate: `latex-docker/dockercmd.sh /bin/sh -c "pdflatex tex/monografia.tex && pdflatex tex/monografia.tex"`
 
 # Referencias
-* https://harshjv.github.io/blog/setup-latex-pdf-build-using-travis-ci/
-* https://github.com/harshjv/travis-ci-latex-pdf
+* https://github.com/andreformento/latex-docker
