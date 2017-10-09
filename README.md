@@ -2,6 +2,8 @@
 
 # Monografia do TCC
 
+[Ultima versão do documento](https://github.com/andreformento/tcc-monografia/releases/latest)
+
 ## Gerar automaticamente:
 Criar uma tag
 ```bash
