@@ -283,3 +283,5 @@ sympy-plots-for-*.tex/
 _build/
 
 latex/
+
+monografia.pdf
