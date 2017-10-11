@@ -6,6 +6,8 @@
 
 ## Publicar automaticamente
 
+Para que a monografia seja gerada automaticamente é preciso criar uma nova tag. Quando uma nova tag for criada, [um hook do Travis](https://travis-ci.org/andreformento/tcc-monografia) é disparado e um Job cria o PDF e coloca no [link de releases](https://github.com/andreformento/tcc-monografia/releases/latest)
+
 ### Direto pelo Github
 
 Basta seguir esse [tutorial](https://help.github.com/articles/creating-releases) para publicar via Github
