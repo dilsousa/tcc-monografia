@@ -284,4 +284,4 @@ _build/
 
 latex/
 
-monografia.pdf
+*.pdf
