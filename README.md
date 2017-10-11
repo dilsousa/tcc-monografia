@@ -4,7 +4,13 @@
 
 [Ultima versão do documento](https://github.com/andreformento/tcc-monografia/releases/latest)
 
-## Gerar automaticamente:
+## Publicar automaticamente
+
+### Direto pelo Github
+
+Basta seguir esse [tutorial](https://help.github.com/articles/creating-releases) para publicar via Github
+
+### Via terminal com git
 Criar uma tag
 ```bash
 git tag -a v1.4 -m "my version 1.4"
