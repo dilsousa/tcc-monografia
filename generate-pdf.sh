@@ -1,9 +1,11 @@
 #!/bin/sh
 
 rm -rf monografia.*
+rm -rf abntex2-modelo-include-comandos.*
 
 ./dockercmd.sh /bin/sh -c "pdflatex tex/monografia.tex"
 
 mv monografia.pdf _monografia.pdf
 rm rm -rf monografia.*
+rm -rf abntex2-modelo-include-comandos.*
 mv _monografia.pdf monografia.pdf
