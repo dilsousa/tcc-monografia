@@ -39,3 +39,4 @@ git push origin v1.4
 * https://github.com/andreformento/latex
 * https://www.sharelatex.com
 * http://latexonline.cc
+* https://latexbase.com
