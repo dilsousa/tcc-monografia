@@ -40,4 +40,4 @@ git push origin v1.4
 * https://www.sharelatex.com
 * http://latexonline.cc
 * https://latexbase.com
-* https://gordonlesti.com/building-a-latex-docker-image
+* https://gordonlesti.com/building-a-latex-docker-image/
