@@ -25,6 +25,11 @@ git push origin v1.4
 
 ## Como gerar PDF com docker local
 
+### Gerar imagem docker
+```bash
+docker build -t pdflatex .
+```
+
 ### Via script
 ```bash
 ./generate-pdf.sh
