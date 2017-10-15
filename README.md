@@ -25,22 +25,10 @@ git push origin v1.4
 
 ## Como gerar PDF com docker local
 
-### Gerar imagem docker
-```bash
-docker build -t pdflatex .
-```
-
-Run `docker run -it pdflatex`
-
 ### Via script
 ```bash
 ./generate-pdf.sh
 ```
-
-### Passo a passo
-* Clean: `rm -rf latex && rm -rf monografia.*`
-* Clone: `git clone https://github.com/andreformento/latex`
-* Generate: `latex/dockercmd.sh /bin/sh -c "pdflatex tex/monografia.tex"`
 
 # Referencias
 * https://github.com/andreformento/latex
