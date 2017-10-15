@@ -30,6 +30,8 @@ git push origin v1.4
 docker build -t pdflatex .
 ```
 
+Run `docker run -it pdflatex`
+
 ### Via script
 ```bash
 ./generate-pdf.sh

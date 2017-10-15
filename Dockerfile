@@ -13,9 +13,7 @@ RUN apt-get update \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-COPY start.sh /
-COPY tex/monografia.tex /
-COPY abntex2-modelo-include-comandos.tex /
+ADD tex/ /
 
 RUN chmod 777 -R /usr/local/share/texmf && \
     chmod 777 -R /var/lib/texmf && \
