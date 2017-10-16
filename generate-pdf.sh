@@ -1,7 +1,8 @@
 #!/bin/sh
 
-cd tex
 rm -f monografia.pdf
+
+cd tex
 
 docker run -it -v "$PWD":/data -w /data andreformento/latex pdflatex monografia.tex
 
@@ -19,3 +20,5 @@ rm -f *.lof
 rm -f *.log
 rm -f *.lot
 rm -f *.toc
+
+mv monografia.pdf ../
