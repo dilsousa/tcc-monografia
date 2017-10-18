@@ -20,5 +20,8 @@ rm -f *.lof
 rm -f *.log
 rm -f *.lot
 rm -f *.toc
+rm -f *.blg
+rm -f *.brf
+rm -f *.bbl
 
 mv monografia.pdf ../
